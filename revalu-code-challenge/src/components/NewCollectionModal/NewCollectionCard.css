@@ -1,0 +1,77 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+}
+
+.modal {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    h2 {
+        margin-top: 0;
+    }
+
+    .form-group {
+        margin-bottom: 1rem;
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            span {
+                color: #ff000f;
+            }
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+
+        .char-count {
+            text-align: right;
+            font-size: 0.75rem;
+            color: #666;
+        }
+    }
+
+    .modal-actions {
+        display: flex;
+        justify-content: flex-end;
+
+        button {
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            padding: 0.5rem 1rem;
+            margin-left: 0.5rem;
+
+            &:first-child {
+                background: #ccc;
+            }
+
+            &.create-button {
+                background: #800080;
+                color: #fff;
+            }
+
+            &:disabled {
+                background: #ddd;
+                cursor: not-allowed;
+            }
+        }
+    }
+}

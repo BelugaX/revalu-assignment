@@ -1,0 +1,106 @@
+.sidebar {
+    width: 250px;
+    background-color: #fff;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    height: 100%;
+    overflow-y: auto;
+  }
+  
+  .sidebar h2 {
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: 'Inter';
+  }
+  
+  .dropdown-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .dropdown-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+  }
+  
+  .dropdown-btn:focus {
+    outline: none;
+  }
+  
+  .arrow {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 10px;
+    vertical-align: middle;
+    content: "";
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #333;
+  }
+  
+  .arrow.open {
+    border-top: none;
+    border-bottom: 5px solid #333;
+  }
+  
+  .dropdown-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  
+  .dropdown-menu li {
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .dropdown-menu li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .new-collection-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    font-family: 'Inter';
+    color: #007BFF;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 16px;
+  }
+  
+  .new-collection-btn span {
+    margin-right: 8px;
+  }
+  
+  .new-collection-btn:focus {
+    outline: none;
+  }
+  
+  .new-collection-btn:hover {
+    background-color: #f0f0f0;
+  }  

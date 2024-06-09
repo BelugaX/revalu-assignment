@@ -1,0 +1,50 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Inter';
+    align-items: center;
+    margin: 20px;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 1rem;
+    /* RP_04 */
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+    li {
+        margin: 0 1rem;
+        cursor: pointer;
+
+        :hover,
+        &.active {
+            font-weight: bold;
+            color: #8C66E0;
+            background: lightblue;
+            border-radius: 5px;
+        }
+    }
+}
+
+.header-profile {
+    margin: 0 10px 0;
+    width: 32px;
+    height: 32px;
+    border-radius: 10000px;
+
+    /* Inside auto layout */
+    display: flex;
+    align-items: flex-end;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    font-size: 1.5rem;
+}

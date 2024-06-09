@@ -1,0 +1,55 @@
+.collection-card {
+    position: relative;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #fff;
+    font-family: 'Inter';
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    .download-btn {
+        align-self: flex-start;
+        padding: 0.5rem 1rem;
+        background: skyblue;
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        margin-bottom: 1rem;
+    }
+
+    .download-btn:hover {
+        background-color: #0056b3;
+    }
+
+    h3 {
+        margin: 0 0 0.5rem 0;
+        font-size: 1rem;
+    }
+
+    p {
+        flex-grow: 1;
+        font-size: 14px;
+        color: #616161;
+        margin: 0 0 1rem 0;
+    }
+
+    .download-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .delete-collection {
+        display: flex;
+        justify-content: space-between;
+        
+        .delete-icon {
+            cursor: pointer;
+            color: #ff0000;
+        }
+    }
+}

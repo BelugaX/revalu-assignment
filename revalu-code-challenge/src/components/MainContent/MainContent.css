@@ -1,0 +1,7 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Inter';
+    flex: 1;
+    background-color: #f8f8f8;
+  }
