@@ -3,7 +3,7 @@ import delete_icon from '../../delete_icon.svg';
 import edit from '../../edit.svg';
 import './CollectionCard.css';
 
-export default function CollectionCard({ title, description, dataCount = 87, onDelete }) {
+export default function CollectionCard({ title, description, dataCount, onDelete }) {
   return (
     <div className='collection-card'>
       <div className='download-section'>

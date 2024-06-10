@@ -1,5 +1,6 @@
 .collection-list {
     flex: 1;
+    padding-top: 0px;
     padding: 20px;
     background-color: #f9f9f9;
     font-family: 'Inter';
@@ -21,7 +22,6 @@
     align-items: center;
     border: 2px dashed #ccc;
     border-radius: 8px;
-    height: 250px;
     cursor: pointer;
     font-size: 2rem;
     background: #d3d3d3;

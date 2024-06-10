@@ -1,12 +1,18 @@
 import React, { useState } from 'react';
 import './Sidebar.css';
+import NewCollectionCard from '../NewCollectionModal/NewCollectionCard';
 
-const Sidebar = () => {
+const Sidebar = ({ onCreate }) => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
   };
+
+  const handleNewCollectionClick = () => {
+    setIsModalOpen(true);
+  }
 
   return (
     <div className="sidebar">
@@ -25,9 +31,18 @@ const Sidebar = () => {
         )}
       </div>
       <hr />
-      <button className="new-collection-btn">
+      <button className="new-collection-btn" onClick={handleNewCollectionClick}>
         <span role="img" aria-label="folder">📁</span> New Collection
       </button>
+      {isModalOpen && (
+        <NewCollectionCard 
+          onClose={() => setIsModalOpen(false)} 
+          onCreate={(newCollection) => {
+            onCreate(newCollection);
+            setIsModalOpen(false);
+           }}
+        />
+      )}
     </div>
   );
 };

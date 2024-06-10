@@ -9,7 +9,8 @@ export default function NewCollectionCard({ onClose, onCreate }) {
         if (title && description) {
             onCreate({
                 title,
-                description
+                description,
+                dataCount: 0,
             });
             onClose();
         }
@@ -47,5 +48,5 @@ export default function NewCollectionCard({ onClose, onCreate }) {
             </div>
         </div>
     </div>
-  )
+  );
 }

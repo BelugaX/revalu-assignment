@@ -1,4 +1,8 @@
 .collection-card {
+    word-wrap: break-word; /* For breaking long words */
+    word-break: break-all; /* break all words, if necessary */
+    overflow: hidden;
+    white-space: normal; /* Allow text to wrap within container */
     position: relative;
     border: 1px solid #ccc;
     display: flex;
