@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/revalu-assignment/static/css/main.ab8a00c7.css",
+    "main.js": "/revalu-assignment/static/js/main.289f684b.js",
+    "static/js/453.5dcc4555.chunk.js": "/revalu-assignment/static/js/453.5dcc4555.chunk.js",
+    "static/media/header_profile.svg": "/revalu-assignment/static/media/header_profile.92274815b1fae938b153c023c2bb51c0.svg",
+    "static/media/logo.svg": "/revalu-assignment/static/media/logo.2c78d0d12e17fbc55f9341d620f990c2.svg",
+    "static/media/delete_icon.svg": "/revalu-assignment/static/media/delete_icon.c535969e48dff365e11050b7478ed517.svg",
+    "index.html": "/revalu-assignment/index.html",
+    "static/media/edit.svg": "/revalu-assignment/static/media/edit.de2b634373e19b33b5b9f11ba4c97334.svg",
+    "main.ab8a00c7.css.map": "/revalu-assignment/static/css/main.ab8a00c7.css.map",
+    "main.289f684b.js.map": "/revalu-assignment/static/js/main.289f684b.js.map",
+    "453.5dcc4555.chunk.js.map": "/revalu-assignment/static/js/453.5dcc4555.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab8a00c7.css",
+    "static/js/main.289f684b.js"
+  ]
+}
